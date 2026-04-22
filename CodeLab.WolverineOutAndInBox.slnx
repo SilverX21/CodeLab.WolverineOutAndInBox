@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Solution Items/" />
+  <Project Path="CodeLab.WolverineOutAndInBox.Api/CodeLab.WolverineOutAndInBox.Api.csproj" />
+  <Project Path="CodeLab.WolverineOutAndInBox.AppHost/CodeLab.WolverineOutAndInBox.AppHost.csproj" />
+  <Project Path="CodeLab.WolverineOutAndInBox.ServiceDefaults/CodeLab.WolverineOutAndInBox.ServiceDefaults.csproj" />
+</Solution>
