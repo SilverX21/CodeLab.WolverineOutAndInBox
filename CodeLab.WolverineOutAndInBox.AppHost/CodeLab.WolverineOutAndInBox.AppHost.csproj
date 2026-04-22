@@ -12,4 +12,11 @@
       <ProjectReference Include="..\CodeLab.WolverineOutAndInBox.Api\CodeLab.WolverineOutAndInBox.Api.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Aspire.Hosting.AppHost" Version="13.2.3" />
+      <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="13.2.3" />
+      <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="13.2.3" />
+      <PackageReference Include="Aspire.Hosting.Seq" Version="13.2.3" />
+    </ItemGroup>
+
 </Project>
