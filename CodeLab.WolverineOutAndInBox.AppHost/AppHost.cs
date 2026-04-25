@@ -1,7 +1,8 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
 var rmq = builder.AddRabbitMQ("rmq")
-    .WithLifetime(ContainerLifetime.Persistent);
+    .WithLifetime(ContainerLifetime.Persistent)
+    .WithManagementPlugin();
 
 var db = builder.AddPostgres("postgres")
     .WithPgAdmin()
